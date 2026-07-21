@@ -1,2 +1,13 @@
 # tmoBot
-Independent design project with the goal to expand on my knowledge of embedded systems and improve my robotics related engineering skills
+The goal of this project is to build a differential drive robot around an STM32 microcontroller programmed using baremetal C. 
+The completed project should demonstrate my knowledge of low-level embedded system development and motor control using quadrature 
+encoders. Future development will build on the existing robot, incorporating sensors and software to enable autonomous navigation.
+
+CURRENT OBJECTIVES
+-Learn STM32 architecture and peripherals
+-Implement PWM for motor control
+-Enable PID velocity control using quadrature encoders
+-Use odometry to estimate robot position
+
+CURRENT HARDWARE
+-STM32 NUCLEO-F446RE
